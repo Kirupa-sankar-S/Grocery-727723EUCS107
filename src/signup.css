@@ -1,0 +1,139 @@
+/* General Container */
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://www.rajmandirhypermarket.com/wp-content/uploads/2023/01/00_groceryshopping_This-is-the-Absolute-Worst-Day-to-Shop-for-Your-Thanksgiving-Groceries_299082896_wavebreakmedia-1-1199x800.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the container */
+    padding: 50px; /* Adjust padding as needed */
+}
+
+/* Wrapper Container */
+.signup-wrapper {
+    position: absolute;
+    top: 20%; /* Adjust this value to move the container higher or lower */
+    left: 50%;
+    transform: translate(-50%, 0); /* Center the container horizontally */
+    width: 100%;
+}
+
+/* Signup Box */
+.signup-box {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    text-align: center;
+}
+
+
+/* Title Styling */
+h2 {
+    font-size: 30px; /* Increased font size */
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.or {
+    font-size: 18px; /* Increased font size */
+    color: #ff6200;
+}
+
+.or a {
+    text-decoration: none;
+    color: #ff6200;
+}
+
+/* Form Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px 20px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+/* Password Field Container */
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Password Toggle (Eye Icon) */
+.password-toggle {
+    position: absolute;
+    right: 15px; /* Increased space from right */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px; /* Larger icon size */
+}
+
+/* Register Button */
+.register-btn {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    background-color: #ff6200;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px; /* Increased font size */
+    cursor: pointer;
+    margin-bottom: 25px; /* Increased margin */
+}
+
+.register-btn:hover {
+    background-color: #e55a00;
+}
+
+/* Alternative Signup Options */
+.alternative-signup p {
+    margin-bottom: 20px; /* Increased margin */
+    font-size: 16px; /* Increased font size */
+    color: #777;
+}
+
+/* Password Field Container */
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Password Toggle (Eye Icon) */
+.password-toggle {
+    position: absolute;
+    right: 15px; /* Increased space from right */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px; /* Larger icon size */
+}
+
+.google-signup-btn {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    background-color: #f8f9fa;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: none;
+}
+
+.google-signup-btn:hover {
+    background-color: #e9ecef;
+}

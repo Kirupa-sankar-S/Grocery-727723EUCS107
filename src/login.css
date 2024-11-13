@@ -1,0 +1,142 @@
+/* General Container */
+/* General Container */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://www.rajmandirhypermarket.com/wp-content/uploads/2023/01/00_groceryshopping_This-is-the-Absolute-Worst-Day-to-Shop-for-Your-Thanksgiving-Groceries_299082896_wavebreakmedia-1-1199x800.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    
+    text-align: center;
+    position: relative;
+    /* No additional centering styles needed here */
+  }
+  
+
+  
+  /* Title Styling */
+  h2 {
+    font-size: 28px; /* Larger font size */
+    margin-bottom: 25px; /* Increased margin */
+  }
+  
+  .or {
+    font-size: 18px; /* Larger font size */
+    color: #ff6200; /* Orange color */
+  }
+  
+  .or a {
+    text-decoration: none;
+    color: #ff6200;
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Form Input Fields */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px 20px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Larger border radius */
+    font-size: 18px; /* Larger font size */
+    box-sizing: border-box;
+  }
+  
+  input[type="email"]::placeholder,
+  input[type="password"]::placeholder {
+    color: #888;
+    font-style: italic; /* Italic placeholder text */
+  }
+  
+  /* Password Field Container */
+  .password-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Password Toggle (Eye Icon) */
+  .password-toggle {
+    position: absolute;
+    right: 15px; /* Adjusted space from right */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px; /* Larger icon size */
+  }
+  
+  /* Forgot Password Link */
+  .forgot-password-link {
+    display: block;
+    text-align: right;
+    font-size: 18px; /* Larger font size */
+    color: #007bff;
+    margin-bottom: 25px; /* Increased margin */
+    text-decoration: none;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* reCAPTCHA Container */
+  .captcha-container {
+    margin-bottom: 25px; /* Increased margin */
+  }
+  
+  /* Login Button */
+  .login-btn {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    background-color: #ff6200;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Larger border radius */
+    font-size: 20px; /* Larger font size */
+    cursor: pointer;
+    margin-bottom: 25px; /* Increased margin */
+  }
+  
+  .login-btn:hover {
+    background-color: #e55a00;
+  }
+  
+  /* Alternative Login Options */
+  .alternative-login p {
+    margin-bottom: 20px; /* Increased margin */
+    font-size: 18px; /* Larger font size */
+    color: #777;
+  }
+  
+  .google-login-btn,
+  .phone-login-btn {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    background-color: #f8f9fa;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Larger border radius */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer;
+    margin-bottom: 15px; /* Increased margin */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: none;
+  }
+  
+  .google-login-btn:hover,
+  .phone-login-btn:hover {
+    background-color: #e9ecef;
+  }
+  

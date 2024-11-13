@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "b946",
+      "fullName": "kirupa",
+      "email": "kiru@gmail.com",
+      "phoneNumber": "987654321",
+      "password": "kiru"
+    },
+    {
+      "id": "45df",
+      "fullName": "testing",
+      "email": "rtesting12@gmail.com",
+      "phoneNumber": "987654321",
+      "password": "1234"
+    }
+  ]
+}
